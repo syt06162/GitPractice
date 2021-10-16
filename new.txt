@@ -1,2 +1,2 @@
 new text
-a new
+another
