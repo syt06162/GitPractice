@@ -11,10 +11,14 @@ GitPractice
     
 이렇게 됩니다.
 아니면 이 방법도 있어요
-<pre>
+
 <code>
     print("Hello World")
     a = 10
 </code>
-</pre>
+
+''' python
+    print("Hello World")
+    a = 10
+'''
 
