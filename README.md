@@ -1,15 +1,12 @@
-# GitPractice
-## md practice
-### aaa
+GitPractice
+============
 
-This is 
-=======
+### mark down 신기하네
 
-222
------
+코드도 삽입할 수 있대.
+어떻게?
+    print("Hello World")
+    a = 10
+이렇게 됩니다.
+됐나?
 
-> 1번
-> 1번에 1
-> > 2번
-> > 2번이네
-> > ### 머리글이 될까?
