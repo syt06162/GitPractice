@@ -1,0 +1,58 @@
+[git 자주 사용하는 명령어 정리, 소스트리]
+유튜브 - 얄팍한 코딩사전 참고
+
+A. git과 소스트리 사용법
+B. 추가적인 내용
+C. github 연동
+---------------------------------------------------
+A. git과 소스트리 사용법
+
+(소스트리 초기화면)
+Clone : 깃허브의 저장소를 로컬로 내려받는다.
+Add : 로컬 파일을 소스트리(저장소)에 추가한다. (이미 .git 있는걸 그냥 소스트리에서 보이게)
+Create : 새로운 저장소를 만든다. (.git 폴더 생성)
+
+<명령어 직접 / 소스트리에서>
+1. git init  / CREATE
+(.git 폴더를 생성할 위치로 이동해서 cmd 또는 git bash 에서 켜기)
+
+2. (처음 한번만) / 설정에서
+git config --global user.name "내 이름"
+git config --global user.email "내 이메일"
+
+3. git status / workspace - 파일 상태
+
+4. git add -A / 스테이지에 올리기
+
+5. git commit -m "commit name" / workspace - 파일상태에서 커밋하기
+
+6. git log / workspace - History
+
+7. git reset "ABCDEF"(log 앞6자리) --hard / History 에서 "이 커밋까지 현재 브랜치를 초기화 - hard"
+
+8. git revert "ABCDEF"(log 앞6자리) +치고나서+ :wq  /History에서 "커밋 되돌리기"
+(이 시점으로 되돌아가는게 아니라 현 시점을 유지하되, 이 시점에서 변화준 것들만 변화취소)
+
+9. git branch "branch명" / 브랜치 버튼 - 이름 입력
+새로운 브랜치 만들기
+
+10. git checkout "branch명" / 좌측 메뉴의 브랜치 클릭
+main, my_idea 등 브랜치 왔다갔다 하기
+
+11. git merge "branch명" / 좌측 메뉴에서 '현재 상태'로 이동하고, 병합할 브랜치명을 우클릭해서 병합
+현재 상태인 branch에서 입력한브랜치명을 merge
+
+---
+B. 추가적인 내용
+
+###추가###
+12. git rebase "branch명" / 좌측 메뉴에서 '현재 상태'로 이동하고, 재배치할 브랜치명을 우클릭해서 병합
+일자로 재배치
+
+13. git branch -D "branch명" / 좌측 메뉴에서 지울 브랜치 우클릭 후 삭제
+다쓴 브랜치 삭제
+
+---
+C. github 연동
+git remote add origin "깃허브의레퍼지토리주소" / 우상단의 '원격' 버튼 - 주소 복붙
+git push -u origin main / 좌상단의 푸쉬 또는 커밋할때 즉시 푸시
