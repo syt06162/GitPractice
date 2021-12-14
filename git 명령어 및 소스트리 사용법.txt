@@ -3,7 +3,7 @@
 
 A. git과 소스트리 사용법
 B. 추가적인 내용
-C. github 연동
+C. github 연동 , clone, fetch 와 pull
 ---------------------------------------------------
 A. git과 소스트리 사용법
 
@@ -53,6 +53,13 @@ B. 추가적인 내용
 다쓴 브랜치 삭제
 
 ---
-C. github 연동
-git remote add origin "깃허브의레퍼지토리주소" / 우상단의 '원격' 버튼 - 주소 복붙
-git push -u origin main / 좌상단의 푸쉬 또는 커밋할때 즉시 푸시
+C. github 연동 , clone, fetch 와 pull
+1. git remote add origin "깃허브의레퍼지토리주소" / 우상단의 '원격' 버튼 - 주소 복붙
+
+2. git push -u origin main / 좌상단의 푸쉬 또는 커밋할때 즉시 푸시
+
+3. git clone "주소" / + 눌러서 새로운 저장소 시작하고 좌상단의 clone - 주소 복붙
+
+4. git fetch (git status) git pull origin main / pull 버튼 눌러서 가져오기
+원격저장소에 비해 내컴퓨터에서 뒤쳐져있는 commit 내용을 불러오기
+
