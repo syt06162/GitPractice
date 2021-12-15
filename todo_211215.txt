@@ -1,0 +1,14 @@
+todo 
+1. branch, merge with team
+2. pullrequest
+3. readme clearly
+4. git ignore practice
+
+
+done - CLI
+1. linear commit push
+2. branch merge 
+
+done - GUI (sourcetree)
+1. linear commit push
+2. branch merge 
