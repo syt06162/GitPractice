@@ -54,6 +54,10 @@ B. 추가적인 내용
 
 14. git revert 여러개 한번에 하는 방법
 https://stackoverflow.com/questions/1463340/how-can-i-revert-multiple-git-commits
+핵심: (A: 돌아가려는 지점, D: 현재 head 위치)
+$ git reset --hard A
+$ git reset --soft D # (or ORIG_HEAD or @{1} [previous location of HEAD]), all of which are D
+$ git commit
 
 ---
 C. github 연동 , clone, fetch 와 pull
