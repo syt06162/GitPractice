@@ -117,6 +117,8 @@ git rebase -i 7b52f66
 또는
 git rebase -i --rebase-merges 7b52f66
 
+최초인 경우 커밋주소 대신 --root
+
 b.
 pick으로 되어있는 부분을 edit 또는 e로 변경
 'i' 를 눌러 insert 모드로 진입, ESC 눌러 insert 모드 탈출
@@ -124,6 +126,9 @@ pick으로 되어있는 부분을 edit 또는 e로 변경
 
 c.
 git commit --amend --author="sherlock_notebook <syt06162@naver.com>"
+
+c-1.
+다시 vi편집모드에 들어가게 되는데, 그냥 :wq로 저장하고 나온다.
 
 d.
 git rebase --continue
