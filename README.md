@@ -1,5 +1,13 @@
-GitPractice
-============
+# Study-Git-GitHub
+깃, 깃허브, readme 마크다운 작성법을 연습하기 위한 공간.
+
+마크다운(Markdown) 사용법 링크 : https://gist.github.com/ihoneymon/652be052a0727ad59601   
+깃허브(GitHub)로 취업하기 링크 : https://sujinlee.me/professional-github/   
+
+여기 아래부터는 마크다운 연습이다. (내용 없음)
+---------
+
+
 ## mark down 연습
 
 ### A. 코드 삽입하기

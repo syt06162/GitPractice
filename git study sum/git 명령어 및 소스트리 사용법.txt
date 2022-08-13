@@ -40,7 +40,7 @@ git config --global user.email "내 이메일"
 main, my_idea 등 브랜치 왔다갔다 하기
 
 11. git merge "branch명" / 좌측 메뉴에서 '현재 상태'로 이동하고, 병합할 브랜치명을 우클릭해서 병합
-현재 상태인 branch에서 입력한브랜치명을 merge
+현재 상태인 branch에서 입력한 브랜치명을 merge
 
 ---
 B. 추가적인 내용
@@ -50,6 +50,13 @@ B. 추가적인 내용
 
 13. git branch -D "branch명" / 좌측 메뉴에서 지울 브랜치 우클릭 후 삭제
 다쓴 브랜치 삭제
+
+14. git revert 여러개 한번에 하는 방법
+https://stackoverflow.com/questions/1463340/how-can-i-revert-multiple-git-commits
+핵심: (A: 돌아가려는 지점, D: 현재 head 위치)
+$ git reset --hard A
+$ git reset --soft D # (or ORIG_HEAD or @{1} [previous location of HEAD]), all of which are D
+$ git commit
 
 ---
 C. github 연동 , clone, fetch 와 pull
