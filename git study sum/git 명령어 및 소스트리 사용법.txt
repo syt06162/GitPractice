@@ -103,7 +103,8 @@ E-1. 다른 이메일로 commit을 한 경우:
 Settings -> Email
 
 E-2. source tree 등에서 기본 사용자 d<d> 등으로 추가할 수 없는 경우:
-기존 commit의 정보를 수정할 수 있음. 단 시간은 오늘로 설정되는듯
+기존 commit의 정보를 수정할 수 있음. 
+- 단 시간은 오늘로 설정되는듯 : 소스트리 상의 오류인듯 하다. cmd 상에서 문제 없음, 깃허브도 기존 시간으로 반영 됨.
 https://eggwhite0.tistory.com/93
 (참고 사이트)
 
