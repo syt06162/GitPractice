@@ -143,3 +143,13 @@ git push origin +main
 
 참고: 잘못 rebase를 하다 탈출한 경우 -> 처음부터 다시 하기
 git rebase --abort
+
+---
+F. git stash 사용하기
+https://gmlwjd9405.github.io/2018/05/18/git-stash.html
+변경 사항을 commit을 하지 않고 브랜치를 만들기 위해 임시로 올려두는 stack.
+
+방법:
+1. git stash
+2. 할일 하기
+3. git stash pop (apply랑 drop 다 하기)
